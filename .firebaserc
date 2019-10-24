@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "coding-temple-tracker-jc": {
+      "hosting": {
+        "coding-temple-tracker": [
+          "coding-temple-tracker-jc"
+        ]
+      }
+    }
+  }
+}

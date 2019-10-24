@@ -122,8 +122,13 @@
               "devServerTarget": "coding-temple-tracker:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "coding-temple-tracker"
 }

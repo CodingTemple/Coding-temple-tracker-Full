@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "coding-temple-tracker",
+      "public": "dist/coding-temple-tracker",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
